@@ -1,7 +1,7 @@
 $cuteenv_software = "MusicPlayerSoftware Version 1.4 outputting Audio Streaming through User123's plugin and no other DSP plugins used, Operating System changes - disabling generic error sounds, disabling audio interface energy management profiles"
 $cuteenv_hardware = "Laptop Company_Name Model Configuration (eg 8GB RAM, Model 500 GPU with 1GB VRAM), Data cable make and model, DAC make and model and modifications if any (eg: external clock source, external Digital Isolators)"
 $cuteenv_transudcer = "Amplifier Used and Modifications if any (external power supplies, transistor/capacitor swaps, etc) and Transudcer used and modifications if any"
-$cuteenv_inipath = "C:\Users\user\Music\f\"
+$cuteenv_inipath = "C:\Users\user\Music\"
 $cuteenv_abxfile = $cuteenv_inipath + "ABX_result.textfile"
 $cuteenv_songfile0 = $cuteenv_inipath + "1\music.audiofile"
 $cuteenv_songfile1 = $cuteenv_inipath + "2\music.audiofile"
@@ -82,7 +82,7 @@ if ($comparemode -eq 0){
 Invoke-Item $q}
 else {
 Start-Process "$q" "$cuteenv_songfile0"}
-}}
+}
 }
 else{
 $m = 1
