@@ -10,17 +10,30 @@ The tool has been designed to output a result that is easy to read and infer. Th
 An example of the output is as follows:
 
 CuteABX v1.0r0_powershell RandomOSversionRandom
+
 Software setup is MusicPlayerSoftware Version 1.4 outputting Audio Streaming through User123's plugin and no other DSP plugins used, Operating System changes - disabling generic error sounds, disabling audio interface energy management profiles
+
 Hardware setup is Laptop Company_Name Model Configuration 8GB RAM Model H GPU 1GB VRAM, ABC Data Cable, DAC MODEL 4 with M123 Isolator and N234 Master Clock)
+
 Transducer setup is AmplifierModel TransducerModel
+
 Enter 0.To Compare Music files with Default Player 1.To compare players Answer: 0
+
 Enter 0.To have no delays 1.To have pre configured delays 2.To have randomized delays Answer: 0
+
 Date 06/07/2021 02:01:11
+
 1 || 0 || 1 || 1 || 1|| 2 || 2 || 2 || 02:05:12
+
 1 || 0 || 0 || 0 || 0|| 2 || 2 || 2 || 02:07:14
+
 1 || 0 || 0 || 0 || 0|| 1 || 3 || 2 || 02:10:16
+
 1 || 0 || 0 || 0 || 0|| 2 || 1 || 1 || 02:12:17
+
 0 || 1 || 1 || 0 || 0|| 1 || 1 || 1 || 02:13:19
+
 1 || 0 || 1 || 1 || 1|| 1 || 1 || 1 || 02:14:20
+
 Other than the exit button, have you used any play/pause/rewind/other controls on the player? 1.Yes 2.No Answer: 2
 
