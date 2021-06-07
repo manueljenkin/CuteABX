@@ -1,9 +1,9 @@
 # CuteABX
-A set of software tools for generating AB-X tests
+CuteABX set of software tools for generating AB-X tests
 
-This is a tool for doing AB-X tests in commandline mode. The initial release is on PowerShell for Windows Operating System, and a port using Zshell is being developed for MacOS, Linux and BSD.
+Version 1.0 has been written as a Shell Script. The initial release is on PowerShell for Windows Operating System, and a port using Zshell is being developed for MacOS, Linux and BSD.
 
-The tool provides functions to Randomize and 
+The tool provides functions to Randomize and reduce the effect of timing difference proxies during the AB-X test.
 
 The following is a set of guidelines when sharing results from the tests.
 
