@@ -13,7 +13,7 @@ $delayrandomminimum = 0.1
 $delayrandommaximum = 0.99
 $ABXenvironmentcaption = (Get-WmiObject -class Win32_OperatingSystem).Caption
 $ABXenvironmentversion = [System.Environment]::OSVersion.Version
-$ABXprogramversion = v1.0r0_powershell
+$ABXprogramversion = v1.0r0_powershell_windows
 "CuteABX $ABXprogramversion $ABXenvironmentcaption $ABXenvironment" | Out-File -Filepath $abxfile
 $comparemode = Read-Host "Enter 0.To Compare Music files with Default Player 1.To compare players"
 Add-Content $abxfile "Enter 0.To Compare Music files with Default Player 1.To compare players Answer: $comparemode"
