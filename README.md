@@ -23,3 +23,5 @@ Date 06/07/2021 02:01:11 <br />
 0 || 1 || 1 || 0 || 0|| 1 || 1 || 1 || 02:13:19 <br />
 1 || 0 || 1 || 1 || 1|| 1 || 1 || 1 || 02:14:20 <br />
 Other than the exit button, have you used any play/pause/rewind/other controls on the player? 1.Yes 2.No Answer: 2
+
+The tool is designed to be used primarily for personal analysis. Kindly donot force or impose this tool on an unwilling participant.
