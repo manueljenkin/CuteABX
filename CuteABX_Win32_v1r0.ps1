@@ -1,3 +1,4 @@
+$cuteenv_whattest = "Comparing MusicPlayer 1 and MusicPlayer 2 in ABX test"
 $cuteenv_software = "MusicPlayerSoftware Version 1.4 outputting Audio Streaming through User123's plugin and no other DSP plugins used, Operating System changes - disabling generic error sounds, disabling audio interface energy management profiles"
 $cuteenv_hardware = "Laptop Company_Name Model Configuration (eg 8GB RAM, Model 500 GPU with 1GB VRAM), Data cable make and model, DAC make and model and modifications if any (eg: external clock source, external Digital Isolators)"
 $cuteenv_transudcer = "Amplifier Used and Modifications if any (external power supplies, transistor/capacitor swaps, etc) and Transudcer used and modifications if any"
@@ -18,6 +19,7 @@ $ABXenvironmentcaption = (Get-WmiObject -class Win32_OperatingSystem).Caption
 $ABXenvironmentversion = [System.Environment]::OSVersion.Version
 $ABXprogramversion = "v1.0r0_powershell"
 "CuteABX $ABXprogramversion $ABXenvironmentcaption $ABXenvironment" | Out-File -Filepath $cuteenv_abxfile
+Add-Content $cuteenv_abxfile "Test setup is $cuteenv_whattest"
 Add-Content $cuteenv_abxfile "Software setup is $cuteenv_software"
 Add-Content $cuteenv_abxfile "Hardware setup is $cuteenv_hardware"
 Add-Content $cuteenv_abxfile "Transducer setup is $cuteenv_transducer"
