@@ -1,7 +1,7 @@
 # CuteABX
 CuteABX set of software tools for generating AB-X tests. Kindly Read the LICENSE prior to using the tools.
 
-Version 1.0 has been written as a Shell Script. The initial release is on PowerShell for Windows Operating System. A port using Zshell is being developed for MacOS, Linux, BSD and other Unix-Like or Unix-Based Operating systems and it's alpha version is included in this release.
+Version 1.0 has been written as a Shell Script that runs in an interactive commandline. Support for more shells is planned for the future.
 
 The tool has options for comparing two or more music files in the default player set in your operating system, and can also be used to compare different players, DSP filters and settings. At present, it can compare music players that allow invoking the playback by double clicking the music file. Players that require custom invoking requirements are not supported. It provides functions to randomize time delays to reduce the effect of proxy due to difference in execution time during the AB-X test. Kindly refer to the UserManual for guidance on how to configure the settings and variables.
 
