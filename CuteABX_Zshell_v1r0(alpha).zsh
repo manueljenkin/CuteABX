@@ -1,4 +1,4 @@
-cuteenv_whattest='Comparing MusicPlayer 1 and MusicPlayer 2 in ABX test'
+cuteenv_whattest='z sells zeeshells by the zeeshore'
 cuteenv_software='MusicPlayerSoftware Version 1.4 outputting Audio Streaming through User123's plugin and no other DSP plugins used, Operating System changes - disabling generic error sounds, disabling audio interface energy management profiles'
 cuteenv_hardware='Laptop Company_Name Model Configuration (eg 8GB RAM, Model 500 GPU with 1GB VRAM), Data cable make and model, DAC make and model and modifications if any (eg: external clock source, external Digital Isolators)'
 cuteenv_transudcer='Amplifier Used and Modifications if any (external power supplies, transistor/capacitor swaps, etc) and Transudcer used and modifications if any'
