@@ -14,3 +14,7 @@ The recommended usage for each "cuteenv" variable is as follows
 11. cuteenv_delayfile0 and cuteenv_delayfile1 - custom delays additional to common delay for each of the file opening operations
 12. cuteenv_delayrandomminimum and cuteenv_delayrandommaximum - randomized delay maximum and minimum value. Enter a non integer value to ensure it can generate non integer (seconds) time delay (adds on top of delay common and delay file).
 13. cuteenv_testiterations - number of iterations to run the test. A minimum of 6 iterations is recommended.
+
+Runtime inputs:
+1. comparemode - used to set the mode either comparing audio files (cuteenv_songfile0 and cuteenv_songfile1) through system default music player or comparing different music players (cuteenv_player0 and cuteenv_player1) using a test audio file (cuteenv_player0).
+2. delaymode - used to set delays before running each test if any.
