@@ -35,6 +35,7 @@ Add-Content $cuteenv_abxfile "delayrandomrange $cuteenv_delayrandomminimum $cute
 $delayrandom = 0
 $y = Get-Date
 Add-Content $cuteenv_abxfile "Date $y"
+Add-Content $cuteenv_abxfile " a || b || x || d || p "
 for (($i = 0); $i -lt $cuteenv_testiterations; $i++){
 $a = 0, 1 | Get-Random
 $f = 0
