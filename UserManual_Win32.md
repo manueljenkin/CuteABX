@@ -1,4 +1,4 @@
-Kindly Update all the necessary cuteenv variables prior to running the script. The script can be edited using either a text editor or ISE. Make sure you set the Default Music Playback software prior to using the CuteABX tool.  The CuteABX_Win32_v1r0.ps1 file opens in Windows Powershell to execute the ABX test (Kindly make sure necessary permissions are granted for the running the script).
+Kindly Update all the necessary cuteenv variables prior to running the script. The script can be edited using either a text editor or ISE. Make sure you set the Default Music Playback software prior to using the CuteABX tool.  The CuteABX_Win32_v1r0.ps1 file currently works to execute the ABX test (Kindly make sure necessary permissions are granted for the running the script on your OS).
 
 The recommended usage for each "cuteenv" variable is as follows
 1. cuteenv_whattest - A description of what the test is about, what is being compared (different music files in same player, or same music file in different players), preferrably with input about sample rate, etc of the music. 
